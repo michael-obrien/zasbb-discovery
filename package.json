@@ -1,0 +1,24 @@
+{
+  "name": "Microservice-Forum",
+  "version": "0.0.1",
+  "description": "A simplistic forum using a Seneca Microservice Architecture and React.js Front-End",
+  "main": "discovery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node discovery.js"
+  },
+  "keywords": [
+    "Seneca",
+    "Hapi",
+    "Chairo",
+    "Microservices",
+    "Forum",
+    "React"
+  ],
+  "author": "Michael O'Brien",
+  "license": "MIT",
+  "dependencies": {
+    "dockerode": "^2.2.2",
+    "seneca": "^0.6.3"
+  }
+}
